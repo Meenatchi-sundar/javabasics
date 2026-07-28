@@ -1,0 +1,13 @@
+import java.lang.System;
+import java.util.Scanner;
+class agecalc{
+    public static void main(String args[])
+    {
+       Scanner sc = new Scanner(System.in);
+       int age;
+       age =  sc.nextInt();
+       System.out.println("age="+age);
+
+    }
+    
+}
